@@ -1,0 +1,25 @@
+IC:
+Charger: MCP73871-2CCI
+  Package: QFN-20
+  Datasheet: http://www.mouser.com/ds/2/268/22090a-52174.pdf
+  Functions: LiPo charger, load sharing, 3 status LED
+
+Booster: MIC2876-5.0YMT
+  Package: TDFN 8-pin
+  Datasheet: http://www.mouser.com/ds/2/268/MIC2876-778590.pdf
+  Function: 2MHz switching high efficiency(~95%) boost regulator, Enable pin, 5.0v out
+  
+MCU: ATMega16U2 (Still undecided, other choices include ATtiny88 32-pin, ATMega32U4, PIC16F570-I/SS)
+  Package: QFN-32
+  Datasheet: http://www.mouser.com/ds/2/36/doc7799-28769.pdf
+  Functions: USB HID to Pi, 14 buttons, 4 analog
+
+AMP: PAM8302
+  Package: MSOP-8
+  Datasheet: http://www.mouser.com/ds/2/115/PAM8302A-247351.pdf
+  Functions: Class-D 2.5w mono speaker amp, Enable pin
+
+USB Codec:  PCM2704 (still deciding if needed)
+  Package: SSOP-28
+  Datasheet: http://www.mouser.com/ds/2/405/pcm2704c-485944.pdf
+  Functions: USB Audio DAC
