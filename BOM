@@ -31,7 +31,8 @@ USB Codec:  PCM2704 (still deciding if needed)
   
 USB Hub 4-port: FE1.1S
   Package: SSOP28
-  Datasheet:
+  Datasheet: http://www.jfd-ic.com/Documents/FE1.1s%20Data%20Sheet%20%28Rev.%201.0%29.pdf 
+    http://www.coldtears-electronics.com/images/FE1.1S.pdf
   Function: 1 upstream 4 downstream USB2.0 ports
   Cost: 10x $5.15 ($0.515)
 
