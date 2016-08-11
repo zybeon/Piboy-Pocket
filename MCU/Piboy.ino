@@ -1,3 +1,5 @@
+// Based on work done by piloChambert : https://github.com/piloChambert/RPI-I2C-Joystick
+
 #include <Wire.h>
 #include <avr/sleep.h>
 
